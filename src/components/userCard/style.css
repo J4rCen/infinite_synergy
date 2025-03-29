@@ -1,0 +1,18 @@
+.userCard_container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.userCard_container:hover {
+    background: #00000060;
+}
+
+.userCard_image {
+    height: 18px;
+}

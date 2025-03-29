@@ -1,0 +1,48 @@
+.changeUserData_container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.changeUserData_userChange_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+    background-color: #21869c;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.changeUserData_userList {
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+    gap: 5px;
+    height: 97vh;
+    padding: 10px;
+}
+
+.changeUserData_userChange {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.changeUserData_userChange_dataChange {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+.changeUserData_input_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.changeUserData_button {
+    cursor: pointer;
+}
